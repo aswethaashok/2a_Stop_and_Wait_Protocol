@@ -47,7 +47,8 @@ while True:
    print(ack)
          
    i+=s
-
+   
+PROGRAM FOR SERVER:
 
 import socket
 
@@ -61,9 +62,8 @@ print(s.recv(1024).decode())
 
    s.send("acknowledgement recived from the server".encode())
 
-  
+  ##OUTPUT
 ![Screenshot 2024-02-27 140647](https://github.com/aswethaashok/2a_Stop_and_Wait_Protocol/assets/149987410/af2dc450-b57f-4d39-9684-16f0311e9416)
 
-##OUTPUT
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed.
